@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,com.leo.leoslib.selectPic.NewSelectPicActivity.class);
                 startActivityForResult(intent, 0);
+                //test
             }
 
         });
