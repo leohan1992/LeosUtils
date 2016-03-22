@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/shape_corners_loadimage_button"
+            android:orientation="vertical" >
+			<Button
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:text="选择图片"
+                android:textSize="16sp"
+                android:textColor="#5b5b5b" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@drawable/divider" />
+            
+            <Button
+                android:id="@+id/btn_pick_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:text="选择相册图片"
+                android:textSize="18sp"
+                android:textColor="#459ce9" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/divider" />
+
+            <Button
+                android:id="@+id/btn_take_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:text="拍照上传"
+                android:textSize="18sp"
+                android:textColor="#459ce9" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/shape_corners_loadimage_button"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="#459ce9" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--APP默认背景-->
+    <color name="app_default_background">#ffffff</color>
+    <color name="actionbar_bg">#1db7ce</color>
+    <color name="actionbar_solid">#00deff</color>
+    <color name="actionbar_exitandentry_bg">#398DE3</color>
+    <color name="actionbar_legal_solid">#5e38a6</color>
+    <color name="actionbar_legal_bg">#8969e3</color>
+    <color name="white">#ffffff</color>
+    <color name="selected_main_bottom">#15ACC2</color>
+    <color name="register_solid">#ec9631</color>
+    <color name="register_bg">#d48116</color>
+    <color name="register_press">#dd8a29</color>
+    <color name="text_64">#646464</color>
+    <color name="text_7">#777777</color>
+    <color name="text_5">#555555</color>
+    <color name="text_9">#999999</color>
+    <color name="appbg">#f2f2f2</color>
+    <color name="text_c">#cccccc</color>
+    <color name="syh_bg">#00a666</color>
+    <color name="rq_bg">#2c81e1</color>
+    <color name="governmentservice_bg">#a10d19</color>
+    <color name="governmentservice_comp">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#99a4b7</color>
+    <color name="deep_gray">#394257</color>
+    <color name="border_gray">#d9dfe5</color>
+    <color name="bg_gray">#e1e1e1</color>
+    <color name="btn_gray">#d1d1d1</color>
+    <color name="glass_gall">#c2ebef</color>
+    <color name="light_blue">#87d0f2</color>
+</resources>
